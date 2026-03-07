@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001; // Usamos 3001 para evitar conflictos con otros servicios
 
 // Servir archivos estáticos desde el directorio actual (donde está index.html, css/, js/, assets/)
 app.use(express.static(__dirname));
