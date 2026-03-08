@@ -54,17 +54,30 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0 text-center">
-                    <!-- Placeholder para fotos -->
+                    <!-- Galería de fotos de Kamila -->
                     <div id="carouselBio" class="carousel slide shadow-lg rounded" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselBio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselBio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselBio" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselBio" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselBio" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        </div>
                         <div class="carousel-inner rounded">
                             <div class="carousel-item active">
-                                <img src="https://placehold.co/600x400/87CEEB/FFFFFF?text=Kamila+Niña" class="d-block w-100" alt="Kamila Niña">
+                                <img src="images/Kamila1.jpeg" class="d-block w-100 rotate-left" alt="Kamila" style="object-fit: cover; height: 500px;">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://placehold.co/600x400/87CEEB/FFFFFF?text=Kamila+Creciendo" class="d-block w-100" alt="Kamila Creciendo">
+                                <img src="images/Kamila2.jpeg" class="d-block w-100 rotate-left" alt="Kamila" style="object-fit: cover; height: 500px;">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://placehold.co/600x400/87CEEB/FFFFFF?text=Kamila+XV" class="d-block w-100" alt="Kamila Hoy">
+                                <img src="images/Kamila3.jpeg" class="d-block w-100 rotate-left" alt="Kamila" style="object-fit: cover; height: 500px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Kamila4.jpeg" class="d-block w-100" alt="Kamila" style="object-fit: cover; height: 500px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Kamila5.jpeg" class="d-block w-100 rotate-left" alt="Kamila" style="object-fit: cover; height: 500px;">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselBio" data-bs-slide="prev">
@@ -80,18 +93,53 @@
                 <div class="col-lg-6 text-center text-lg-start ps-lg-5">
                     <h2 class="font-dancing text-primary-custom mb-4 display-5">Un poco de mí...</h2>
                     <p class="lead font-montserrat text-muted">
-                        "En este día tan especial, quiero agradecer a Dios por permitirme llegar a esta hermosa etapa de mi vida, y a mis padres por su amor incondicional."
+                        "15 años de ser yo misma... y eso ya es mucho decir. ¡Vamos a festejar!"
                     </p>
                     <p class="text-secondary">
-                        Acompáñame a celebrar este momento lleno de alegría, sueños y gratitud. Tu presencia es el mejor regalo que puedo recibir.
+                        Estaré muy feliz de que me acompañes en este día tan especial. Tu presencia es el mejor regalo que puedo recibir.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Sección Madre y Madrina -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="font-dancing text-primary-custom display-5 mb-2">Con el amor y bendición de</h2>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Madre -->
+                <div class="col-md-5">
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <div class="icon-circle mx-auto mb-3 bg-primary-custom text-white d-flex align-items-center justify-content-center" style="width: 80px; height: 80px; border-radius: 50%;">
+                                <i class="fas fa-heart fa-2x"></i>
+                            </div>
+                            <h5 class="text-uppercase text-muted mb-2" style="font-size: 0.9rem; letter-spacing: 2px;">Mi Madre</h5>
+                            <h3 class="font-dancing text-primary-custom h2 mb-0">Ana María Mercado Reyes</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Madrina -->
+                <div class="col-md-5">
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+                        <div class="card-body">
+                            <div class="icon-circle mx-auto mb-3 bg-primary-custom text-white d-flex align-items-center justify-content-center" style="width: 80px; height: 80px; border-radius: 50%;">
+                                <i class="fas fa-crown fa-2x"></i>
+                            </div>
+                            <h5 class="text-uppercase text-muted mb-2" style="font-size: 0.9rem; letter-spacing: 2px;">Mi Madrina</h5>
+                            <h3 class="font-dancing text-primary-custom h2 mb-0">Rosa María Herrera Ferreira</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Sección Ubicación (Iglesia y Salón) -->
-    <section id="ubicacion" class="py-5">
+    <section id="ubicacion" class="py-5 bg-light-blue">
         <div class="container text-center">
             <h2 class="font-dancing text-primary-custom mb-2 display-5">Dónde & Cuándo</h2>
             <p class="text-muted mb-5">Acompáñanos en la ceremonia y la recepción</p>
@@ -105,14 +153,14 @@
                                 <i class="fas fa-church fa-2x"></i>
                             </div>
                             <h3 class="font-dancing h2 mb-3">Ceremonia Religiosa</h3>
-                            <p class="mb-1 fw-bold">Templo (Por confirmar)</p>
-                            <p class="text-muted mb-3"><i class="far fa-clock me-2"></i>Hora: Por definir</p>
-                            <p class="text-muted small">Dirección pendiente de confirmar.</p>
+                            <p class="mb-1 fw-bold">Antiguo Templo de Santa María</p>
+                            <p class="text-muted mb-1"><i class="fas fa-map-marker-alt me-2"></i>Morelia, Michoacán</p>
+                            <p class="text-muted mb-3"><i class="far fa-clock me-2"></i>1:00 p.m.</p>
                             <!-- Mapa Placeholder -->
                             <div class="map-placeholder bg-light rounded mb-3 d-flex align-items-center justify-content-center text-muted" style="height: 200px;">
-                                <small>Mapa de la Iglesia</small>
+                                <small><i class="fas fa-church fa-3x text-primary-custom"></i></small>
                             </div>
-                            <a href="#" class="btn btn-outline-primary-custom btn-sm w-100" onclick="alert('Ubicación pendiente de confirmar')"><i class="fas fa-map-marker-alt me-2"></i>Ver ubicación</a>
+                            <button class="btn btn-outline-primary-custom btn-sm w-100" disabled><i class="fas fa-map-marker-alt me-2"></i>Ubicación próximamente</button>
                         </div>
                     </div>
                 </div>
@@ -125,14 +173,14 @@
                                 <i class="fas fa-glass-cheers fa-2x"></i>
                             </div>
                             <h3 class="font-dancing h2 mb-3">Recepción</h3>
-                            <p class="mb-1 fw-bold">Salón de Fiestas (Por confirmar)</p>
-                            <p class="text-muted mb-3"><i class="far fa-clock me-2"></i>Hora: Después de la ceremonia</p>
-                            <p class="text-muted small">Dirección pendiente de confirmar.</p>
-                             <!-- Mapa Placeholder -->
-                             <div class="map-placeholder bg-light rounded mb-3 d-flex align-items-center justify-content-center text-muted" style="height: 200px;">
-                                <small>Mapa del Salón</small>
+                            <p class="mb-1 fw-bold">Salón de Fiestas</p>
+                            <p class="text-muted mb-1"><i class="fas fa-map-marker-alt me-2"></i>Matos Coronados #90</p>
+                            <p class="text-muted mb-3"><i class="far fa-clock me-2"></i>3:00 p.m.</p>
+                             <!-- Mensaje para ver mapa -->\n                             <div class="map-placeholder bg-light rounded mb-3 d-flex flex-column align-items-center justify-content-center text-center p-4" style="height: 200px;">
+                                <i class="fas fa-map-marked-alt fa-3x text-primary-custom mb-2"></i>
+                                <small class="text-muted">Haz clic en "Cómo llegar" para ver el mapa</small>
                             </div>
-                            <a href="#" class="btn btn-outline-primary-custom btn-sm w-100" onclick="alert('Ubicación pendiente de confirmar')"><i class="fas fa-location-arrow me-2"></i>Cómo llegar</a>
+                            <a href="https://maps.app.goo.gl/koJm2PyozJGxVCrC8" target="_blank" class="btn btn-outline-primary-custom btn-sm w-100"><i class="fas fa-location-arrow me-2"></i>Cómo llegar</a>
                         </div>
                     </div>
                 </div>
@@ -151,35 +199,17 @@
                             <p class="mb-0 small op-80">Por favor confirma antes del evento</p>
                         </div>
                         <div class="card-body p-5">
-                            <form id="rsvpForm">
-                                <div class="mb-4">
-                                    <label for="nombreFamilia" class="form-label fw-bold text-muted">Nombre de la Familia / Invitado</label>
-                                    <input type="text" class="form-control form-control-lg bg-light" id="nombreFamilia" name="nombre" placeholder="Ej: Familia Pérez López" required>
-                                </div>
-                                <div class="mb-4">
-                                    <label for="numeroAsistentes" class="form-label fw-bold text-muted">Número de Asistentes</label>
-                                    <select class="form-select form-select-lg bg-light" id="numeroAsistentes" name="asistentes" required>
-                                        <option selected disabled value="">Seleccionar...</option>
-                                        <option value="1">1 Persona</option>
-                                        <option value="2">2 Personas</option>
-                                        <option value="3">3 Personas</option>
-                                        <option value="4">4 Personas</option>
-                                        <option value="5">5 Personas</option>
-                                    </select>
-                                </div>
-                                <div class="mb-4">
-                                    <label for="mensaje" class="form-label fw-bold text-muted">Mensaje para Kamila (Opcional)</label>
-                                    <textarea class="form-control bg-light" id="mensaje" name="mensaje" rows="3" placeholder="Escribe tus felicitaciones aquí..."></textarea>
-                                </div>
-                                <div class="text-center d-grid">
-                                    <button type="submit" class="btn btn-primary-custom btn-lg font-montserrat fw-bold">Enviar Confirmación</button>
-                                </div>
-                                <div id="formFeedback" class="mt-3 text-center d-none">
-                                    <div class="alert alert-success" role="alert">
-                                        ¡Gracias! Tu confirmación ha sido enviada. Pronto recibirás un correo de respuesta.
-                                    </div>
-                                </div>
-                            </form>
+                            <p class="lead text-center mb-4">
+                                Tu compañía es muy importante para mí. Por favor confirma tu asistencia.
+                            </p>
+                            <div class="text-center d-grid">
+                                <a href="https://forms.gle/wvdj9wuVaJJWWPag9" target="_blank" class="btn btn-primary-custom btn-lg font-montserrat fw-bold">
+                                    <i class="fas fa-check-circle me-2"></i>Confirmar Asistencia
+                                </a>
+                            </div>
+                            <p class="text-center text-muted small mt-4">
+                                Se abrirá un formulario en una nueva pestaña
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -198,10 +228,10 @@
             </div>
             
             <br>
-            <a href="#" class="btn btn-outline-primary-custom btn-lg px-5 rounded-pill shadow-sm" onclick="alert('Aquí se abrirá el enlace a Google Photos o Drive')">
+            <a href="https://photos.app.goo.gl/3JgpbpGDNPRwCHCE6" target="_blank" class="btn btn-outline-primary-custom btn-lg px-5 rounded-pill shadow-sm">
                 <i class="fas fa-cloud-upload-alt me-2"></i> Subir Fotos
             </a>
-            <p class="small text-muted mt-3">Pronto habilitaremos el enlace para compartir.</p>
+            <p class="small text-muted mt-3">Comparte tus mejores momentos de la fiesta</p>
         </div>
     </section>
 
