@@ -149,11 +149,13 @@ body {
     box-shadow: 0 0 0 0.25rem rgba(135, 206, 235, 0.25);
 }
 
-/* Map Placeholder */
-.map-placeholder {
-    background-image: url('https://placehold.co/600x300/e0e0e0/aeaeae?text=Mapa+Pendiente');
-    background-size: cover;
-    background-position: center;
+/* Embedded map container */
+.map-embed {
+    background: #f2f2f2;
+}
+
+.map-embed iframe {
+    display: block;
 }
 
 /* Responsive adjustments */

@@ -156,11 +156,18 @@
                             <p class="mb-1 fw-bold">Antiguo Templo de Santa María</p>
                             <p class="text-muted mb-1"><i class="fas fa-map-marker-alt me-2"></i>Morelia, Michoacán</p>
                             <p class="text-muted mb-3"><i class="far fa-clock me-2"></i>1:00 p.m.</p>
-                            <!-- Mapa Placeholder -->
-                            <div class="map-placeholder bg-light rounded mb-3 d-flex align-items-center justify-content-center text-muted" style="height: 200px;">
-                                <small><i class="fas fa-church fa-3x text-primary-custom"></i></small>
+                            <div class="map-embed rounded mb-3 overflow-hidden" style="height: 200px;">
+                                <iframe
+                                    title="Ubicacion ceremonia"
+                                    src="https://maps.google.com/maps?q=19.6728709,-101.1902111&z=16&output=embed"
+                                    width="100%"
+                                    height="200"
+                                    style="border: 0;"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
-                            <button class="btn btn-outline-primary-custom btn-sm w-100" disabled><i class="fas fa-map-marker-alt me-2"></i>Ubicación próximamente</button>
+                            <a href="https://maps.app.goo.gl/QBj7ABvQQeqxQvCQ7" target="_blank" class="btn btn-outline-primary-custom btn-sm w-100"><i class="fas fa-location-arrow me-2"></i>Cómo llegar</a>
                         </div>
                     </div>
                 </div>
@@ -176,9 +183,16 @@
                             <p class="mb-1 fw-bold">Salón de Fiestas</p>
                             <p class="text-muted mb-1"><i class="fas fa-map-marker-alt me-2"></i>Matos Coronados #90</p>
                             <p class="text-muted mb-3"><i class="far fa-clock me-2"></i>3:00 p.m.</p>
-                             <!-- Mensaje para ver mapa -->\n                             <div class="map-placeholder bg-light rounded mb-3 d-flex flex-column align-items-center justify-content-center text-center p-4" style="height: 200px;">
-                                <i class="fas fa-map-marked-alt fa-3x text-primary-custom mb-2"></i>
-                                <small class="text-muted">Haz clic en "Cómo llegar" para ver el mapa</small>
+                            <div class="map-embed rounded mb-3 overflow-hidden" style="height: 200px;">
+                                <iframe
+                                    title="Ubicacion recepcion"
+                                    src="https://maps.google.com/maps?q=19.7139579,-101.1544771&z=17&output=embed"
+                                    width="100%"
+                                    height="200"
+                                    style="border: 0;"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                             <a href="https://maps.app.goo.gl/koJm2PyozJGxVCrC8" target="_blank" class="btn btn-outline-primary-custom btn-sm w-100"><i class="fas fa-location-arrow me-2"></i>Cómo llegar</a>
                         </div>
