@@ -76,7 +76,7 @@ body {
 /* Hero Section */
 .hero-section {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://placehold.co/1920x1080/87CEEB/FFFFFF?text=Fondo+Hero+XV+Años');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/portada.png');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -91,6 +91,11 @@ body {
     border-radius: 20px;
     padding: 3rem;
     max-width: 800px;
+}
+
+/* Rotación de imágenes */
+.rotate-left {
+    transform: rotate(-90deg);
 }
 
 /* Countdown */

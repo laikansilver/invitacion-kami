@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Cuenta Regresiva
-    const fechaEvento = new Date('March 14, 2026 19:00:00').getTime();
+    const fechaEvento = new Date('March 14, 2026 13:00:00').getTime();
 
     const countdownInterval = setInterval(() => {
         const ahora = new Date().getTime();
